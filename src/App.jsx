@@ -1021,7 +1021,7 @@ export default function App() {
   <h3>Still have questions?</h3>
   <p>Our support team is here to help you anytime via WhatsApp</p>
   <a
-    href="href="https://wa.me/9779820790791"
+    href="https://wa.me/9779820790791?text=Hello%20EasyMy%20Learning%2C%20I%20have%20a%20question%20about"
     target="_blank"
     rel="noopener"
     className="cta-button whatsapp-btn"
