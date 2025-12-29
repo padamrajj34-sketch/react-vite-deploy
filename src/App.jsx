@@ -4,7 +4,7 @@ import { useState, useMemo } from 'react';
 const faqSections = [
   {
     id: 'bridge-basic',
-    title: 'A.Bridge Course Program for SEE Graduates (+2 Transition)',
+    title: 'Bridge Course Program for SEE Graduates (+2 Transition)',
     questions: [
       { q: 'What is the Bridge Course program offered by EasyMy Learning?', a: 'The Bridge Course is a structured, short-term preparation program designed for students who have passed the SEE (Secondary Education Examination) and are transitioning to +2 or equivalent programs. It strengthens academic foundations, revises core subjects, and prepares students for +2 coursework and entrance exams across Science, Management, Law, and CTEVT streams.' },
       { q: 'Who is eligible to enroll in the Bridge Course?', a: 'Any student who has successfully completed SEE (Grade 10) and plans to study +2 (Science, Management, Law, or CTEVT) is eligible. The course is especially beneficial for students who want strong conceptual clarity before entering Class 11.' },
@@ -32,7 +32,7 @@ const faqSections = [
   },
   {
     id: 'scholarships',
-    title: 'B. Metro & National Scholarship FAQs',
+    title: ' Metro & National Scholarship FAQs',
     questions: [
       { q: 'What is the Kathmandu Metropolitan City (Metro) Scholarship?', a: 'It is a merit-based government scholarship that covers partial or full +2 education fees for eligible SEE graduates studying in Kathmandu.' },
       { q: 'Does EasyMy Learning help prepare for Metro Scholarships?', a: 'Yes. Metro Scholarship entrance preparation is integrated into the Bridge Course.' },
@@ -48,7 +48,7 @@ const faqSections = [
   },
   {
     id: 'teaching',
-    title: 'C. Teaching Team & Mentorship',
+    title: ' Teaching Team & Mentorship',
     questions: [
       { q: 'Who teaches at EasyMy Learning?', a: 'Courses are taught by the EML Teacher Team consisting of experienced subject experts.' },
       { q: 'What qualifications do the teachers have?', a: 'Teachers have strong academic backgrounds, subject specialization, and online teaching experience.' },
@@ -60,7 +60,7 @@ const faqSections = [
   },
   {
     id: 'support',
-    title: 'D. Student Support, Community & Technology',
+    title: ' Student Support, Community & Technology',
     questions: [
       { q: 'Are WhatsApp or Telegram groups provided?', a: 'Yes. Dedicated student support groups are provided for every batch.' },
       { q: 'Can parents contact EasyMy Learning?', a: 'Yes. Parents can contact via official phone numbers, email, or support channels.' },
@@ -72,7 +72,7 @@ const faqSections = [
   },
   {
     id: 'about',
-    title: 'E. About EasyMy Learning (Organization & Trust)',
+    title: ' About EasyMy Learning (Organization & Trust)',
     questions: [
       { q: 'What is EasyMy Learning?', a: 'EasyMy Learning is a Nepal-based EdTech platform focused on quality education, scholarships, and career guidance.' },
       { q: 'Where is EasyMy Learning located?', a: 'Kalaiya, Bara, Nepal, with services delivered nationwide through online platforms.' },
@@ -84,7 +84,7 @@ const faqSections = [
   },
   {
     id: 'bridge-advanced',
-    title: 'A. Bridge Course (Advanced & Practical)',
+    title: ' Bridge Course (Advanced & Practical)',
     questions: [
       { q: 'Is the Bridge Course suitable for average students?', a: 'Yes. The Bridge Course is specially designed for average and above-average students to strengthen weak concepts and build confidence before +2.' },
       { q: 'Is the Bridge Course helpful for top-ranking students?', a: 'Yes. High-performing students benefit from advanced problem-solving, competitive MCQs, and scholarship-focused preparation.' },
@@ -100,7 +100,7 @@ const faqSections = [
   },
   {
     id: 'scholarships-advanced',
-    title: 'B. Scholarships & Competitive Exams (Advanced)',
+    title: ' Scholarships & Competitive Exams (Advanced)',
     questions: [
       { q: 'Does EasyMy Learning guide students for Lalitpur Metro Scholarship?', a: 'Yes. Guidance for Lalitpur Metropolitan City Scholarship is provided.' },
       { q: 'Are Birgunj and Pokhara Metro Scholarships covered?', a: 'Yes. Preparation and form-filling guidance for Birgunj and Pokhara scholarships are supported.' },
@@ -116,7 +116,7 @@ const faqSections = [
   },
   {
     id: 'teaching-quality',
-    title: 'C. Teaching Quality & Learning Experience',
+    title: ' Teaching Quality & Learning Experience',
     questions: [
       { q: 'Are teachers trained for online teaching?', a: 'Yes. All teachers are trained in digital and interactive online instruction.' },
       { q: 'Do teachers use real-life examples?', a: 'Yes. Real-life and practical examples are used for better understanding.' },
@@ -132,7 +132,7 @@ const faqSections = [
   },
   {
     id: 'tech-advanced',
-    title: 'D. Technology, Access & Support (Advanced)',
+    title: ' Technology, Access & Support (Advanced)',
     questions: [
       { q: 'Is the learning platform easy to use?', a: 'Yes. The platform is student-friendly and accessible on mobile and desktop.' },
       { q: 'Can students learn using a mobile phone only?', a: 'Yes. A smartphone with internet is sufficient.' },
@@ -148,7 +148,7 @@ const faqSections = [
   },
   {
     id: 'outcomes',
-    title: 'E. Outcomes, Trust & Future Pathways',
+    title: ' Outcomes, Trust & Future Pathways',
     questions: [
       { q: 'Does the Bridge Course help in college admissions?', a: 'Yes. Strong preparation improves entrance exam and admission performance.' },
       { q: 'Do students perform better in Class 11 after this course?', a: 'Yes. Most students report improved understanding and confidence.' },
@@ -164,7 +164,7 @@ const faqSections = [
   },
   {
     id: 'fees-policies',
-    title: 'F. Fees, Payments, Refunds & Policies',
+    title: ' Fees, Payments, Refunds & Policies',
     questions: [
       { q: 'Is the Bridge Course affordable for middle-income families?', a: 'Yes. The course is priced affordably with high value compared to private tuition.' },
       { q: 'Are installment payment options available?', a: 'Installment options may be announced during special enrollment periods.' },
@@ -210,7 +210,7 @@ const faqSections = [
   },
   {
     id: 'parents-safety',
-    title: 'G. Parents’ Concerns & Safety',
+    title: ' Parents’ Concerns & Safety',
     questions: [
       { q: 'Is EasyMy Learning safe for minors?', a: 'Yes. All sessions are academic and supervised.' },
       { q: 'Are classes monitored?', a: 'Yes. Classes are monitored by coordinators.' },
@@ -256,7 +256,7 @@ const faqSections = [
   },
   {
     id: 'quality-vision',
-    title: 'H. Quality, Trust & Long-Term Vision',
+    title: ' Quality, Trust & Long-Term Vision',
     questions: [
       { q: 'Does EasyMy Learning focus on quality or quantity?', a: 'Quality is the top priority.' },
       { q: 'Is the curriculum reviewed annually?', a: 'Yes. Content is updated every year.' },
@@ -282,7 +282,7 @@ const faqSections = [
   },
   {
     id: 'legal-operations',
-    title: 'I. Advanced, Legal, Operations & Future Expansion',
+    title: ' Advanced, Legal, Operations & Future Expansion',
     questions: [
       { q: 'Does EasyMy Learning comply with Nepal education laws?', a: 'Yes. EasyMy Learning operates in compliance with applicable Nepalese education and business regulations.' },
       { q: 'Is EasyMy Learning a legally registered company?', a: 'Yes. EasyMy Learning is registered as a Private Limited company in Nepal.' },
@@ -388,7 +388,7 @@ const faqSections = [
   },
   {
     id: 'parent-psychology',
-    title: 'J. Parent Psychology & Objection Handling',
+    title: ' Parent Psychology & Objection Handling',
     questions: [
       { q: 'My child is weak in studies. Will the Bridge Course help?', a: 'Yes. The Bridge Course is designed to strengthen basics and gradually build confidence for weak and average students.' },
       { q: 'What if my child is afraid to ask questions?', a: 'Teachers encourage participation and provide WhatsApp-based doubt support for shy students.' },
@@ -478,7 +478,7 @@ const faqSections = [
   },
   {
     id: 'bonuses',
-    title: 'K. Bridge Course (Detailed Features & Bonuses)',
+    title: ' Bridge Course (Detailed Features & Bonuses)',
     questions: [
       { q: 'What does “Overall benefits worth NRs. 75,000+” mean?', a: 'It refers to the combined value of live classes, recorded lectures, notes, tests, bonus courses, tools setup, guidance, workshops, competitions, and prizes included in the package.' },
       { q: 'Is the Bridge Course access limited to 3 months only?', a: 'Live Bridge Course access is for 3 months; however, many bonus courses have lifetime access.' },
@@ -534,7 +534,7 @@ const faqSections = [
   },
   {
     id: 'college-entrance',
-    title: 'L. High-Stakes Entrance & College Specifics',
+    title: ' High-Stakes Entrance & College Specifics',
     questions: [
       { q: 'Does this course prepare students specifically for St. Xavier’s College entrance?', a: 'Yes. We have a dedicated module covering the unique logical reasoning and IQ patterns used in St. Xavier’s entrance exams.' },
       { q: 'Is there preparation for SOS and Budhanilkantha +2 entrance?', a: 'Yes. The syllabus covers the competitive requirements for SOS Hermann Gmeiner and Budhanilkantha School.' },
@@ -550,7 +550,7 @@ const faqSections = [
   },
   {
     id: 'technical',
-    title: 'M. Technical Troubleshooting & Account Logistics',
+    title: ' Technical Troubleshooting & Account Logistics',
     questions: [
       { q: 'What do I do if I forget my password?', a: 'You can reset it instantly using the "Forgot Password" link on the login screen via OTP.' },
       { q: 'Can I use the same account on two devices simultaneously?', a: 'No. For security reasons, logging in on a second device will automatically log you out of the first one.' },
@@ -566,7 +566,7 @@ const faqSections = [
   },
   {
     id: 'refund-hard',
-    title: 'N. Hardball Refund & Policy Questions',
+    title: ' Hardball Refund & Policy Questions',
     questions: [
       { q: 'If I don\'t get a scholarship, will you refund my fee?', a: 'No. We provide the training to get the scholarship, but the result depends on your exam performance.' },
       { q: 'If I change my mind after 2 days, can I get a refund?', a: 'Please refer to our specific Refund Policy page. Generally, a grace period applies only in valid technical failure cases.' },
