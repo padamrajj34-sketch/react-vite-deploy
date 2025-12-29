@@ -629,7 +629,7 @@ export default function App() {
           align-items: center;
           justify-content: center;
           padding: 20px;
-          background: linear-gradient(to bottom, #d4d1cea3, #9f9696ff);
+          background: linear-gradient(#D1D5DB);
         }
 
         .faq-card {
@@ -830,7 +830,25 @@ export default function App() {
           transform: rotate(45deg);
           color: #ffffff;
         }
+        .whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #25D366 !important;   /* Official WhatsApp green */
+  color: white !important;
+  padding: 16px 45px;
+  border-radius: 60px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
 
+.whatsapp-btn:hover {
+  background: #128C7E !important;   /* Darker green on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+}
         .answer-content {
           max-height: 0;
           overflow: hidden;
@@ -998,19 +1016,20 @@ export default function App() {
               ))
             )}
 
-            {/* === CTA === */}
-            <div className="cta">
-              <h3>Still have questions?</h3>
-              <p>Our support team is here to help you anytime</p>
-              <a
-                href="https://easymylearning.in"
-                target="_blank"
-                rel="noopener"
-                className="cta-button"
-              >
-                Visit Website →
-              </a>
-            </div>
+         {/* === CTA === */}
+<div className="cta">
+  <h3>Still have questions?</h3>
+  <p>Our support team is here to help you anytime via WhatsApp</p>
+  <a
+    href="href="https://wa.me/9779820790791"
+    target="_blank"
+    rel="noopener"
+    className="cta-button whatsapp-btn"
+  >
+    <i className="fab fa-whatsapp" style={{ marginRight: '10px', fontSize: '1.3rem' }}></i>
+    Chat on WhatsApp →
+  </a>
+</div>
           </div>
         </div>
       </div>
